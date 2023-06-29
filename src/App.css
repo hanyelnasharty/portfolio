@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #bd5c37;
+  width: 300px;
+  height: 789px;
+}
+
+
+#nav-item {
+  text-decoration: none;
+  color: #bbbbbb;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#nav-item:hover {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#nav-item.active {
+  color: white;
+  text-shadow: 5px 5px 5px black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+li {
+  list-style-type: none;
+  font-size: x-large;
+  padding: 10px;
+}
+
+#bio {
+  color: #bd5c37;
+}
+
+#projects {
+  color: #bd5c37;
+}
+
+#skills {
+  color: #bd5c37;
+}
+
+#interests {
+  color: #bd5c37;
+}
+
+#profile {
+  height: 200px;
+  border-radius: 70px;
+  border: 8px solid #cd7d60;
+  margin-top: 80px;
+  margin-left: -35px;
+}
+
+span {
+  color: #bd5c37;
+}
+
+#info {
+  color: #9898a8;
+  font-size: medium;
+}
+
+
+h2 a .resume:hover {
+  color: blue;
+  background-color: blue;
+}
+
+a:hover {
+  color: blue;
+}
+
+p {
+  line-height: 200%;
+  font-size: large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#tools {
+  color: #9898a8;
+}
+
+
+a {
+  color: inherit;
+}
+
+ion-icon:hover {
+  color: #bd5c37;
+}
+
+ion-icon {
+  font-size: 60px;
+  margin: 10px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+.logo:hover {
+  color: #bd5c37;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 350px;
+  margin-top: -680px;
+}
+
+
+.bio-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 350px;
+  margin-top: -680px;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 350px;
+  margin-top: -680px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 350px;
+  margin-top: -680px;
+}
+
+.interests-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 350px;
+  margin-top: -680px;
+}
+
+h1 {
+  font-size: 64px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
