@@ -12,10 +12,8 @@ const Layout = () => {
         <>
             <div className="nav-container">
                 <nav>
-                <ul>
-                    <li>
-                        <img id="profile" src="profile.jpg" alt="profile_picture"/>
-                    </li>
+                    <img id="profile" src="profile.jpg" alt="profile_picture"/>
+                <ul className="nav">
                     <li>
                         <Link  className={isActive('/')} id="nav-item" to="/">Home</Link>
                     </li>
